@@ -1,0 +1,53 @@
+/* Sintaxi CSS - Regra CSS */
+/* elemento {propriedade:valor;} */
+
+/* *{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+header {
+    background-color:darkred;
+    color: bisque
+}
+
+h1 {background-color:orange;}
+
+nav {
+    background-color: blanchedalmond;
+    font-weight: bold;
+    color: darkred;
+}
+a:visited {
+    color: darkred;
+}
+
+main{
+    background-color: blanchedalmond;
+    color: darkred;
+}
+footer {
+    background-color: blanchedalmond;
+    color: darkred;
+}
+
+#center {
+    width: 50%; 
+    text-align: center;
+}
+
+table{
+    border-color: darkred;
+    background-color: orange;
+}
+
+main  {
+    width: 80%; /* width: Determina a largura em 80% em relação ao elemento pai - nesse caso, o elemento pai é o body*/
+    /* margin-left: 10%; - Determina o deslocamento do elemento para a direção da propriedade escolhida */
+    margin: 0 auto;
+} 
+
+#topo {
+    text-align: center;
+}
