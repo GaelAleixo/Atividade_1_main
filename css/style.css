@@ -42,6 +42,14 @@ table{
     background-color: orange;
 }
 
+tr:nth-child(even) {
+  background-color: #7e7cf1;
+}
+
+tr:nth-child(odd) {
+  background-color: #7cf1f1;
+}
+
 main  {
     width: 80%; /* width: Determina a largura em 80% em relação ao elemento pai - nesse caso, o elemento pai é o body*/
     /* margin-left: 10%; - Determina o deslocamento do elemento para a direção da propriedade escolhida */
@@ -51,3 +59,10 @@ main  {
 #topo {
     text-align: center;
 }
+
+ol {
+    background-color: darksalmon;
+}
+
+
+
